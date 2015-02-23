@@ -1,0 +1,16 @@
+[
+    "index.md",
+    {
+        "filename": "introduction.md",
+        "attr": {
+            "data-background": "images/crowd-20.jpg"
+        }
+    },
+    "credits.md",
+    {
+        "filename": "picture.html",
+        "attr": {
+            
+        }
+    }
+]
