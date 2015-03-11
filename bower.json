@@ -2,7 +2,8 @@
   "name": "responsive-imagery",
   "version": "1.0.0",
   "dependencies": {
-    "reveal.js": "~2.6.1",
-    "reveal-highlight-themes": "~8.3.0"
+    "reveal.js": "~3.0.0",
+    "reveal-highlight-themes": "~8.3.0",
+    "d3": "~3.5.5"
   }
 }

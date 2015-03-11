@@ -7,46 +7,34 @@
 // This file has been copied over from
 // ../../bower_components/reveal.js/css/theme/source/default.scss
 
+@import 'compass';
+
 // Default mixins and settings -----------------
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
 @import "../../bower_components/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 
-// Include theme-specific fonts ----------------
-@font-face {
-        font-family: 'League Gothic';
-        src: url('../bower_components/reveal.js/lib/font/league_gothic-webfont.eot');
-        src: url('../bower_components/reveal.js/lib/font/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
-                 url('../bower_components/reveal.js/lib/font/league_gothic-webfont.woff') format('woff'),
-                 url('../bower_components/reveal.js/lib/font/league_gothic-webfont.ttf') format('truetype'),
-                 url('../bower_components/reveal.js/lib/font/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
-
-        font-weight: normal;
-        font-style: normal;
-}
-
+@import url(../bower_components/reveal.js/lib/font/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 // ---------------------------------------------
 
 // Override theme settings ---------------------
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
-// Other options include e.g.
-// $mainFont: 'Open Sans', sans-serif;
-// $linkColor: #ed1dff;
-// $linkColorHover: $linkColor;
-// $headingFont: 'Montserrat', Impact, sans-serif;
-// $headingTextShadow: none;
-// $headingLetterSpacing: -0.03em;
-// $headingTextTransform: none;
-// $selectionBackgroundColor: #e0ad52;
-// $mainFontSize: 30px;
-// See ../../bower_components/reveal.js/css/theme/template/settings.scss for the full list.
-// ---------------------------------------------
+$mainFont: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mainFontSize: 34px;
+$mainColor: #33363B;
+$headingFont: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingFontWeight: 700;
+$headingAlternateFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingColor: #33363B;
+$headingTextShadow: none;
+$heading1TextShadow: none;
+$headingTextTransform: uppercase;
+$backgroundColor: rgb(127,255,223);
+$linkColor: #176F8E;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
-// Background generator ------------------------
-@mixin bodyBackground() {
-        @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
-}
+
 // ---------------------------------------------
 
 // Theme template ------------------------------
@@ -55,3 +43,97 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
+
+.reveal .slides {
+
+	text-align: left;
+
+	h1, h2, h3, h4, h5, p {
+		margin: .5em 0;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.3em;
+	}
+
+	h2, h3, h4 {
+		text-transform: none;
+	}
+
+	blockquote {
+		background: none;
+		border: none;
+		position: relative;
+		font-size: 1.2em;
+		line-height: 1.2em;
+		box-shadow: none;
+	}
+
+	// Remove unwanted padding from default slide styles.
+    // This removes the default vertical centering.
+	>section,
+	>section>section {
+		height: 100%;
+		padding: 0;
+	}
+
+	// No background on images please.
+	img {
+		background: none;
+		border: none;
+		@include box-shadow(none);
+	}
+
+	// This is from bower_components/reveal-highlight-themes/styles/github.css
+	// Added here because Reveal 3.0.0 code block styles are more specific than they were.
+	pre code {
+	  display: block;
+	  overflow-x: auto;
+	  padding: 0.5em;
+	  color: #333;
+	  background: #f8f8f8;
+	  -webkit-text-size-adjust: none;
+	}
+
+	// Left align code blocks
+	pre {
+		margin: 20px 0;
+		width: auto;
+	}
+
+    section.title {
+
+        height: auto;
+        color: #fff;
+
+        blockquote {
+            background: transparent;
+            box-shadow: none;
+            font-size: 250%;
+            width: 80%;
+
+            font-family: "League Gothic";
+
+            cite {
+                display: block;
+                font-size: 50%;
+                text-align: right;
+                &:before {
+                    content: "— ";
+                }
+            }
+        }
+
+    }
+}

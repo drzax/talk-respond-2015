@@ -1,16 +1,48 @@
 [
-    "index.md",
     {
-        "filename": "introduction.md",
+        "filename": "weight.md",
         "attr": {
-            "data-background": "images/crowd-20.jpg"
+            "data-background": "images/crowd-20.jpg",
+            "class": "title"
+        }
+    },
+    {
+        "filename": "weight-pie.html",
+        "attr": {
+            "id": "weight-pie"
+        }
+    },
+    {
+        "filename": "requests-transfer.html",
+        "attr": {
+            "id": "requests-transfer"
+        }
+    },
+    {
+        "filename": "wait.md",
+        "attr": {
+            "data-background": "images/crowd-50.jpg",
+            "class": "title"
+        }
+    },
+    {
+        "filename": "good.md",
+        "attr": {
+
         }
     },
     "credits.md",
     {
+        "filename": "srcset-code.md",
+        "attr": {
+
+        }
+    },
+    {
         "filename": "picture.html",
         "attr": {
-            
+
         }
-    }
+    },
+    "index.md"
 ]
