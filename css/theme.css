@@ -476,3 +476,13 @@ body {
 .reveal .slides section.title blockquote cite:before {
   content: "— ";
 }
+/* line 140, source/theme.scss */
+.reveal .slides .fragment-replace {
+  position: relative;
+}
+/* line 144, source/theme.scss */
+.reveal .slides .fragment-replacement {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,5 +1,12 @@
 [
     {
+        "filename": "title.md",
+        "attr": {
+            "data-background": "images/meadow-path-track-3251.jpg",
+            "class": "title"
+        }
+    },
+    {
         "filename": "weight.md",
         "attr": {
             "data-background": "images/crowd-20.jpg",
@@ -26,7 +33,19 @@
         }
     },
     {
-        "filename": "good.md",
+        "filename": "good-selection.md",
+        "attr": {
+
+        }
+    },
+    {
+        "filename": "good-sources.md",
+        "attr": {
+
+        }
+    },
+    {
+        "filename": "good-control.md",
         "attr": {
 
         }

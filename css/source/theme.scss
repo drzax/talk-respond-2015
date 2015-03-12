@@ -136,4 +136,14 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
         }
 
     }
+
+	.fragment-replace {
+		position: relative;
+	}
+
+	.fragment-replacement {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 }

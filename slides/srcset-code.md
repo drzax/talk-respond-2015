@@ -2,20 +2,20 @@
 
 
 <pre><code data-trim data-noescape>
-&lt;img src="lighthouse-200.jpg"
-        <span class="fragment">sizes="50vw"</span>
-        <span class="fragment">srcset="lighthouse-100.jpg 100w,
-                lighthouse-200.jpg 200w,
-                lighthouse-400.jpg 400w,
-                lighthouse-800.jpg 800w,
-                lighthouse-1000.jpg 1000w,
-                lighthouse-1400.jpg 1400w,
-                lighthouse-1800.jpg 1800w"</span>>
+&lt;img
+    src=<span class="fragment-replace"><span class="fragment fade-out" data-fragment-index="2">"/images/wiki-commons/04-large.jpg"</span><span class="fragment fade-in fragment-replacement" data-fragment-index="2">"test"</span></span>
+    alt="A man showing three visitors to The House that Jack Built"
+    <span class="fragment">srcset="04-tiny.jpg   300w,
+            04-small.jpg  600w,
+            04-medium.jpg 800w,
+            04-large.jpg  1000w"</span>
+    <span class="fragment">sizes="50vw"</span>>
 </code></pre>
 
 
 
-<aside class="notes">
-    Put your speaker notes here.
-    You can see them pressing 's'.
-</aside>
+note:
+- `srcset` is a fine place to start beginning with responsive imagery. I
+  think it gets you the most bang for your buck.
+- In fact, there are good arguments to be made that you should not be using
+  <picture> most of the time.
