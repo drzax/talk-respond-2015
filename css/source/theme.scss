@@ -71,6 +71,10 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 		text-transform: none;
 	}
 
+	ol {
+		margin-left: 2em;
+	}
+
 	blockquote {
 		background: none;
 		border: none;
@@ -103,13 +107,29 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 	  padding: 0.5em;
 	  color: #333;
 	  background: #f8f8f8;
+	  line-height: 1.5em;
 	  -webkit-text-size-adjust: none;
+	}
+
+	code {
+		color: #555;
 	}
 
 	// Left align code blocks
 	pre {
 		margin: 20px 0;
 		width: auto;
+		font-size: 0.75em;
+	}
+
+	section.first {
+		height: 100%;
+		text-align: right;
+		color: #fff;
+		h1 {
+			color: #fff;
+			text-shadow: #000 0 0 1em;
+		}
 	}
 
     section.title {
@@ -145,5 +165,22 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 		position: absolute;
 		top: 0;
 		left: 0;
+	}
+
+	#problem-solution {
+		h3 {
+			span {
+				width: 430px;
+				display: inline-block;
+				text-align: left;
+			}
+
+			span:first-of-type {
+				text-align: right;
+			}
+
+			margin-top: 3em;
+			text-align: center;
+		}
 	}
 }

@@ -3,8 +3,14 @@
         "filename": "title.md",
         "attr": {
             "data-background": "images/meadow-path-track-3251.jpg",
-            "class": "title"
+            "class": "first"
         }
+    },
+    {
+        "filename": "old-spec.md"
+    },
+    {
+        "filename": "browsers.md"
     },
     {
         "filename": "weight.md",
@@ -26,12 +32,20 @@
         }
     },
     {
+        "filename": "72pct.md",
+        "attr": {
+            "data-background": "#aaa",
+            "class": "title"
+        }
+    },
+    {
         "filename": "wait.md",
         "attr": {
             "data-background": "images/crowd-50.jpg",
             "class": "title"
         }
     },
+
     {
         "filename": "good-selection.md",
         "attr": {
@@ -45,18 +59,63 @@
         }
     },
     {
-        "filename": "good-control.md",
+        "filename": "good-control.md"
+    },
+    {
+        "filename": "new-hotness.md"
+    },
+    {
+        "filename": "use-cases.md"
+    },
+    {
+        "filename": "use-cases-condensed.md"
+    },
+    {
+        "filename": "resolution-switching-problem.md",
+        "attr": {
+            "data-background-color": "#000",
+            "data-background-video": "video/resolution-switching.mov"
+        }
+    },
+    {
+        "filename": "art-direction-problem.md"
+    },
+    {
+        "filename": "problem-solution.md",
+        "attr": {
+            "id": "problem-solution"
+        }
+    },
+    {
+        "filename": "srcset-pixel-density.md",
+        "attr": {
+
+        }
+    },
+    {
+        "filename": "srcset-pixel-density-problem.md",
+        "attr": {
+            "data-background-color": "#000",
+            "data-background-video": "video/pixel-density-problem.mov"
+        }
+    },
+    {
+        "filename": "dpr-maths.md"
+    },
+    {
+        "filename": "catch-22.md",
+        "attr": {
+            "data-background": "images/crowd-50.jpg",
+            "class": "title"
+        }
+    },
+    {
+        "filename": "srcset-width-descriptor.md",
         "attr": {
 
         }
     },
     "credits.md",
-    {
-        "filename": "srcset-code.md",
-        "attr": {
-
-        }
-    },
     {
         "filename": "picture.html",
         "attr": {

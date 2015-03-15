@@ -417,6 +417,10 @@ body {
   text-transform: none;
 }
 /* line 74, source/theme.scss */
+.reveal .slides ol {
+  margin-left: 2em;
+}
+/* line 78, source/theme.scss */
 .reveal .slides blockquote {
   background: none;
   border: none;
@@ -425,13 +429,13 @@ body {
   line-height: 1.2em;
   box-shadow: none;
 }
-/* line 85, source/theme.scss */
+/* line 89, source/theme.scss */
 .reveal .slides > section,
 .reveal .slides > section > section {
   height: 100%;
   padding: 0;
 }
-/* line 92, source/theme.scss */
+/* line 96, source/theme.scss */
 .reveal .slides img {
   background: none;
   border: none;
@@ -439,26 +443,43 @@ body {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 100, source/theme.scss */
+/* line 104, source/theme.scss */
 .reveal .slides pre code {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #333;
   background: #f8f8f8;
+  line-height: 1.5em;
   -webkit-text-size-adjust: none;
 }
-/* line 110, source/theme.scss */
+/* line 114, source/theme.scss */
+.reveal .slides code {
+  color: #555;
+}
+/* line 119, source/theme.scss */
 .reveal .slides pre {
   margin: 20px 0;
   width: auto;
+  font-size: 0.75em;
 }
-/* line 115, source/theme.scss */
+/* line 125, source/theme.scss */
+.reveal .slides section.first {
+  height: 100%;
+  text-align: right;
+  color: #fff;
+}
+/* line 129, source/theme.scss */
+.reveal .slides section.first h1 {
+  color: #fff;
+  text-shadow: #000 0 0 1em;
+}
+/* line 135, source/theme.scss */
 .reveal .slides section.title {
   height: auto;
   color: #fff;
 }
-/* line 120, source/theme.scss */
+/* line 140, source/theme.scss */
 .reveal .slides section.title blockquote {
   background: transparent;
   box-shadow: none;
@@ -466,23 +487,38 @@ body {
   width: 80%;
   font-family: "League Gothic";
 }
-/* line 128, source/theme.scss */
+/* line 148, source/theme.scss */
 .reveal .slides section.title blockquote cite {
   display: block;
   font-size: 50%;
   text-align: right;
 }
-/* line 132, source/theme.scss */
+/* line 152, source/theme.scss */
 .reveal .slides section.title blockquote cite:before {
   content: "— ";
 }
-/* line 140, source/theme.scss */
+/* line 160, source/theme.scss */
 .reveal .slides .fragment-replace {
   position: relative;
 }
-/* line 144, source/theme.scss */
+/* line 164, source/theme.scss */
 .reveal .slides .fragment-replacement {
   position: absolute;
   top: 0;
   left: 0;
+}
+/* line 171, source/theme.scss */
+.reveal .slides #problem-solution h3 {
+  margin-top: 3em;
+  text-align: center;
+}
+/* line 172, source/theme.scss */
+.reveal .slides #problem-solution h3 span {
+  width: 430px;
+  display: inline-block;
+  text-align: left;
+}
+/* line 178, source/theme.scss */
+.reveal .slides #problem-solution h3 span:first-of-type {
+  text-align: right;
 }

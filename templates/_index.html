@@ -13,11 +13,10 @@
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
 
-        <link rel="stylesheet" href="css/theme.css" id="theme">
-
-
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/github.css" id="highlight-theme">
+
+        <link rel="stylesheet" href="css/theme.css" id="theme">
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
@@ -85,7 +84,7 @@
                     { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } },
-                    { src: 'js/charts.js'}
+                    { src: 'js/loopvid.js'}
                 ]
             });
         </script>
