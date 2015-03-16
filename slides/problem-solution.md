@@ -1,3 +1,3 @@
-### <span>`srcset` & `sizes`</span> ↔ <span>resolution switching</span>
+### <span>resolution switching</span> ↔ <span>`srcset` & `sizes`</span>
 
-### <span>`<picture>`</span> ↔ <span>art direction</span>
+### <span>art direction</span> ↔ <span>`<picture>`</span>

@@ -1,5 +1,4 @@
-## <code>srcset</code>
-
+# <code>srcset</code>
 
 <pre><code data-trim data-noescape>
 &lt;img src="http://placehold.it/500x500" alt="A placeholder"<span class="fragment fade-out" data-fragment-index="1">></span>

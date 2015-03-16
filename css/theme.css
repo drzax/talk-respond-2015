@@ -11,8 +11,8 @@
  *********************************************/
 /* line 7, ../bower_components/reveal.js/css/theme/template/theme.scss */
 body {
-  background: #7fffdf;
-  background-color: #7fffdf;
+  background: #BFB169;
+  background-color: #BFB169;
 }
 
 /* line 12, ../bower_components/reveal.js/css/theme/template/theme.scss */
@@ -20,7 +20,7 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 34px;
   font-weight: normal;
-  color: #33363B;
+  color: #260101;
 }
 
 /* line 19, ../bower_components/reveal.js/css/theme/template/theme.scss */
@@ -48,7 +48,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #33363B;
+  color: #260101;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
@@ -272,7 +272,7 @@ body {
  *********************************************/
 /* line 229, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal a {
-  color: #176F8E;
+  color: #BF0436;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -281,7 +281,7 @@ body {
 
 /* line 237, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal a:hover {
-  color: #2eafdd;
+  color: #fb2e65;
   text-shadow: none;
   border: none;
 }
@@ -289,7 +289,7 @@ body {
 /* line 244, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .roll span:after {
   color: #fff;
-  background: #0c3c4c;
+  background: #740221;
 }
 
 /*********************************************
@@ -299,7 +299,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #33363B;
+  border: 4px solid #260101;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -313,7 +313,7 @@ body {
 /* line 268, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #176F8E;
+  border-color: #BF0436;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -323,45 +323,45 @@ body {
 /* line 280, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #176F8E;
+  border-right-color: #BF0436;
 }
 
 /* line 285, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #176F8E;
+  border-left-color: #BF0436;
 }
 
 /* line 290, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #176F8E;
+  border-bottom-color: #BF0436;
 }
 
 /* line 295, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #176F8E;
+  border-top-color: #BF0436;
 }
 
 /* line 300, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #2eafdd;
+  border-right-color: #fb2e65;
 }
 
 /* line 304, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #2eafdd;
+  border-left-color: #fb2e65;
 }
 
 /* line 308, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #2eafdd;
+  border-bottom-color: #fb2e65;
 }
 
 /* line 312, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #2eafdd;
+  border-top-color: #fb2e65;
 }
 
 /*********************************************
@@ -374,7 +374,7 @@ body {
 
 /* line 324, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .progress span {
-  background: #176F8E;
+  background: #BF0436;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -385,42 +385,61 @@ body {
  *********************************************/
 /* line 335, ../bower_components/reveal.js/css/theme/template/theme.scss */
 .reveal .slide-number {
-  color: #176F8E;
+  color: #BF0436;
 }
 
 /* line 47, source/theme.scss */
+#breadcrumbs {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: #fff;
+}
+/* line 52, source/theme.scss */
+#breadcrumbs span {
+  padding: 10px 10px 10px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100px 0 0 100px;
+  font-size: 0.5em;
+}
+
+/* line 60, source/theme.scss */
 .reveal .slides {
   text-align: left;
 }
-/* line 51, source/theme.scss */
+/* line 64, source/theme.scss */
 .reveal .slides h1, .reveal .slides h2, .reveal .slides h3, .reveal .slides h4, .reveal .slides h5, .reveal .slides p {
-  margin: .5em 0;
+  margin: 0.5em 0 0.2em 0;
 }
-/* line 53, source/theme.scss */
+/* line 66, source/theme.scss */
 .reveal .slides h1:first-child, .reveal .slides h2:first-child, .reveal .slides h3:first-child, .reveal .slides h4:first-child, .reveal .slides h5:first-child, .reveal .slides p:first-child {
   margin-top: 0;
 }
-/* line 58, source/theme.scss */
+/* line 70, source/theme.scss */
+.reveal .slides h1 code, .reveal .slides h2 code, .reveal .slides h3 code, .reveal .slides h4 code, .reveal .slides h5 code, .reveal .slides p code {
+  text-transform: none;
+}
+/* line 75, source/theme.scss */
 .reveal .slides h1 {
   font-size: 2em;
 }
-/* line 62, source/theme.scss */
+/* line 79, source/theme.scss */
 .reveal .slides h2 {
   font-size: 1.5em;
 }
-/* line 66, source/theme.scss */
+/* line 83, source/theme.scss */
 .reveal .slides h3 {
   font-size: 1.3em;
 }
-/* line 70, source/theme.scss */
+/* line 87, source/theme.scss */
 .reveal .slides h2, .reveal .slides h3, .reveal .slides h4 {
   text-transform: none;
 }
-/* line 74, source/theme.scss */
+/* line 91, source/theme.scss */
 .reveal .slides ol {
   margin-left: 2em;
 }
-/* line 78, source/theme.scss */
+/* line 95, source/theme.scss */
 .reveal .slides blockquote {
   background: none;
   border: none;
@@ -429,13 +448,13 @@ body {
   line-height: 1.2em;
   box-shadow: none;
 }
-/* line 89, source/theme.scss */
+/* line 106, source/theme.scss */
 .reveal .slides > section,
 .reveal .slides > section > section {
   height: 100%;
   padding: 0;
 }
-/* line 96, source/theme.scss */
+/* line 113, source/theme.scss */
 .reveal .slides img {
   background: none;
   border: none;
@@ -443,7 +462,7 @@ body {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 104, source/theme.scss */
+/* line 121, source/theme.scss */
 .reveal .slides pre code {
   display: block;
   overflow-x: auto;
@@ -453,72 +472,92 @@ body {
   line-height: 1.5em;
   -webkit-text-size-adjust: none;
 }
-/* line 114, source/theme.scss */
+/* line 131, source/theme.scss */
 .reveal .slides code {
-  color: #555;
+  color: #BF0436;
 }
-/* line 119, source/theme.scss */
+/* line 136, source/theme.scss */
 .reveal .slides pre {
   margin: 20px 0;
   width: auto;
   font-size: 0.75em;
 }
-/* line 125, source/theme.scss */
+/* line 142, source/theme.scss */
+.reveal .slides > section {
+  background: rgba(0, 0, 0, 0.2);
+}
+/* line 146, source/theme.scss */
 .reveal .slides section.first {
   height: 100%;
   text-align: right;
   color: #fff;
 }
-/* line 129, source/theme.scss */
+/* line 150, source/theme.scss */
 .reveal .slides section.first h1 {
   color: #fff;
   text-shadow: #000 0 0 1em;
 }
-/* line 135, source/theme.scss */
+/* line 156, source/theme.scss */
 .reveal .slides section.title {
   height: auto;
   color: #fff;
+  font-size: 2em;
 }
-/* line 140, source/theme.scss */
+/* line 162, source/theme.scss */
+.reveal .slides section.title h1 {
+  color: #fff;
+}
+/* line 166, source/theme.scss */
 .reveal .slides section.title blockquote {
   background: transparent;
   box-shadow: none;
-  font-size: 250%;
+  font-size: 1.4em;
   width: 80%;
   font-family: "League Gothic";
 }
-/* line 148, source/theme.scss */
+/* line 174, source/theme.scss */
 .reveal .slides section.title blockquote cite {
   display: block;
   font-size: 50%;
   text-align: right;
 }
-/* line 152, source/theme.scss */
+/* line 178, source/theme.scss */
 .reveal .slides section.title blockquote cite:before {
   content: "— ";
 }
-/* line 160, source/theme.scss */
+/* line 186, source/theme.scss */
+.reveal .slides section.image {
+  text-align: center;
+}
+/* line 188, source/theme.scss */
+.reveal .slides section.image img, .reveal .slides section.image video {
+  padding: 0;
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+/* line 196, source/theme.scss */
 .reveal .slides .fragment-replace {
   position: relative;
 }
-/* line 164, source/theme.scss */
+/* line 200, source/theme.scss */
 .reveal .slides .fragment-replacement {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 171, source/theme.scss */
+/* line 207, source/theme.scss */
 .reveal .slides #problem-solution h3 {
   margin-top: 3em;
   text-align: center;
 }
-/* line 172, source/theme.scss */
+/* line 208, source/theme.scss */
 .reveal .slides #problem-solution h3 span {
   width: 430px;
   display: inline-block;
   text-align: left;
 }
-/* line 178, source/theme.scss */
+/* line 214, source/theme.scss */
 .reveal .slides #problem-solution h3 span:first-of-type {
   text-align: right;
 }

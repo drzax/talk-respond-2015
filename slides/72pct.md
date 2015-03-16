@@ -1,1 +1,1 @@
-<div style="font-size: 8em; text-align: center;">72%</div>
+<div style="font-size: 6em; text-align: center;">72%</div>

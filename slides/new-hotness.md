@@ -1,2 +1,5 @@
-1. New attributes: `srcset` & `sizes`
-2. New element: `<picture>`
+# Two new attributes
+`srcset` & `sizes`
+
+# One new element
+`<picture>`

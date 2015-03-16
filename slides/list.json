@@ -7,10 +7,18 @@
         }
     },
     {
-        "filename": "old-spec.md"
+        "filename": "old-spec.md",
+        "attr": {
+            "class": "image title",
+            "data-section": "Introduction"
+        }
     },
     {
-        "filename": "browsers.md"
+        "filename": "browsers.md",
+        "attr": {
+            "class": "image",
+            "data-section": "Introduction"
+        }
     },
     {
         "filename": "weight.md",
@@ -22,90 +30,118 @@
     {
         "filename": "weight-pie.html",
         "attr": {
-            "id": "weight-pie"
+            "id": "weight-pie",
+            "data-section": "The weight of imagery"
         }
     },
     {
         "filename": "requests-transfer.html",
         "attr": {
-            "id": "requests-transfer"
+            "id": "requests-transfer",
+            "data-section": "The weight of imagery"
         }
     },
     {
         "filename": "72pct.md",
         "attr": {
-            "data-background": "#aaa",
+            "data-section": "The weight of imagery",
             "class": "title"
         }
     },
     {
-        "filename": "wait.md",
+        "filename": "a-good-solution.md",
         "attr": {
-            "data-background": "images/crowd-50.jpg",
-            "class": "title"
+            "class": "title",
+            "data-background": "images/crowd-50.jpg"
         }
     },
-
     {
         "filename": "good-selection.md",
         "attr": {
-
+            "data-section": "A good solution"
         }
     },
     {
         "filename": "good-sources.md",
         "attr": {
-
+            "data-section": "A good solution"
         }
     },
     {
-        "filename": "good-control.md"
+        "filename": "good-control.md",
+        "attr": {
+            "data-section": "A good solution"
+        }
     },
     {
-        "filename": "new-hotness.md"
+        "filename": "new-hotness.md",
+        "attr": {
+            "data-section": "A good solution"
+        }
     },
     {
-        "filename": "use-cases.md"
+        "filename": "defined-problems.md",
+        "attr": {
+            "class": "title",
+            "data-background": "images/crowd-90.jpg"
+        }
     },
     {
-        "filename": "use-cases-condensed.md"
+        "filename": "use-cases.md",
+        "attr": {
+            "data-section": "Problems: Use cases"
+        }
+    },
+    {
+        "filename": "use-cases-condensed.md",
+        "attr": {
+            "data-section": "Problems: Use cases"
+        }
     },
     {
         "filename": "resolution-switching-problem.md",
         "attr": {
-            "data-background-color": "#000",
-            "data-background-video": "video/resolution-switching.mov"
+            "class": "image",
+            "data-section": "Problems: Resolution switching"
         }
     },
     {
-        "filename": "art-direction-problem.md"
+        "filename": "art-direction-problem.md",
+        "attr": {
+            "class": "image",
+            "data-section": "Problems: Art direction"
+        }
     },
     {
         "filename": "problem-solution.md",
         "attr": {
-            "id": "problem-solution"
+            "id": "problem-solution",
+            "data-section": "Problems ↔ Solutions"
         }
     },
     {
         "filename": "srcset-pixel-density.md",
         "attr": {
-
+            "data-section": "Solutions: Pixel density descriptor"
         }
     },
     {
         "filename": "srcset-pixel-density-problem.md",
         "attr": {
-            "data-background-color": "#000",
-            "data-background-video": "video/pixel-density-problem.mov"
+            "data-section": "Solutions: Pixel density descriptor",
+            "class": "image"
         }
     },
     {
-        "filename": "dpr-maths.md"
+        "filename": "dpr-maths.md",
+        "attr": {
+            "data-section": "Solutions: Width descriptor"
+        }
     },
     {
         "filename": "catch-22.md",
         "attr": {
-            "data-background": "images/crowd-50.jpg",
+            "data-background": "images/crowd-120.jpg",
             "class": "title"
         }
     },
@@ -115,12 +151,14 @@
 
         }
     },
-    "credits.md",
     {
-        "filename": "picture.html",
-        "attr": {
-
-        }
+        "filename": "summary.md"
     },
-    "index.md"
+    {
+        "filename": "wait.md",
+        "attr": {
+            "data-background": "images/crowd.jpg",
+            "class": "title"
+        }
+    }
 ]
