@@ -148,11 +148,26 @@
     {
         "filename": "srcset-width-descriptor.md",
         "attr": {
-
+            "data-section": ""
         }
     },
     {
-        "filename": "summary.md"
+        "filename": "wrap-up-art-direction.md",
+        "attr": {
+            "data-section": "Wrap up"
+        }
+    },
+    {
+        "filename": "wrap-up-now.md",
+        "attr": {
+            "data-section": "Wrap up"
+        }
+    },
+    {
+        "filename": "wrap-up-polyfill.md",
+        "attr": {
+            "data-section": "Wrap up"
+        }
     },
     {
         "filename": "wait.md",

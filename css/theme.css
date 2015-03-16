@@ -483,31 +483,27 @@ body {
   font-size: 0.75em;
 }
 /* line 142, source/theme.scss */
-.reveal .slides > section {
-  background: rgba(0, 0, 0, 0.2);
-}
-/* line 146, source/theme.scss */
 .reveal .slides section.first {
   height: 100%;
   text-align: right;
   color: #fff;
 }
-/* line 150, source/theme.scss */
+/* line 146, source/theme.scss */
 .reveal .slides section.first h1 {
   color: #fff;
   text-shadow: #000 0 0 1em;
 }
-/* line 156, source/theme.scss */
+/* line 152, source/theme.scss */
 .reveal .slides section.title {
   height: auto;
   color: #fff;
   font-size: 2em;
 }
-/* line 162, source/theme.scss */
+/* line 158, source/theme.scss */
 .reveal .slides section.title h1 {
   color: #fff;
 }
-/* line 166, source/theme.scss */
+/* line 162, source/theme.scss */
 .reveal .slides section.title blockquote {
   background: transparent;
   box-shadow: none;
@@ -515,49 +511,49 @@ body {
   width: 80%;
   font-family: "League Gothic";
 }
-/* line 174, source/theme.scss */
+/* line 170, source/theme.scss */
 .reveal .slides section.title blockquote cite {
   display: block;
   font-size: 50%;
   text-align: right;
 }
-/* line 178, source/theme.scss */
+/* line 174, source/theme.scss */
 .reveal .slides section.title blockquote cite:before {
   content: "— ";
 }
-/* line 186, source/theme.scss */
+/* line 182, source/theme.scss */
 .reveal .slides section.image {
   text-align: center;
 }
-/* line 188, source/theme.scss */
+/* line 184, source/theme.scss */
 .reveal .slides section.image img, .reveal .slides section.image video {
   padding: 0;
   margin: 0;
   max-height: 100%;
   max-width: 100%;
 }
-/* line 196, source/theme.scss */
+/* line 192, source/theme.scss */
 .reveal .slides .fragment-replace {
   position: relative;
 }
-/* line 200, source/theme.scss */
+/* line 196, source/theme.scss */
 .reveal .slides .fragment-replacement {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 207, source/theme.scss */
+/* line 203, source/theme.scss */
 .reveal .slides #problem-solution h3 {
   margin-top: 3em;
   text-align: center;
 }
-/* line 208, source/theme.scss */
+/* line 204, source/theme.scss */
 .reveal .slides #problem-solution h3 span {
   width: 430px;
   display: inline-block;
   text-align: left;
 }
-/* line 214, source/theme.scss */
+/* line 210, source/theme.scss */
 .reveal .slides #problem-solution h3 span:first-of-type {
   text-align: right;
 }
