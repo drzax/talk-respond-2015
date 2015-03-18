@@ -17,3 +17,4 @@ Here are some of the choice picks (i.e. the ones I can remember at the last minu
 - [How to choose breakpoints](http://blog.cloudfour.com/dont-use-picture-most-of-the-time/)
 - [How much art direction](http://blog.yoav.ws/2013/05/How-Big-Is-Art-Direction)
 - [Images in Markup](https://developers.google.com/web/fundamentals/media/images/images-in-markup#relative-sized-images)
+- [To Picturefill, or not to Picturefill](http://www.filamentgroup.com/lab/to-picturefill.html)
