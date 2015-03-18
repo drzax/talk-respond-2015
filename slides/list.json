@@ -28,14 +28,14 @@
         }
     },
     {
-        "filename": "weight-pie.html",
+        "filename": "weight-pie.md",
         "attr": {
             "id": "weight-pie",
             "data-section": "The weight of imagery"
         }
     },
     {
-        "filename": "requests-transfer.html",
+        "filename": "requests-transfer.md",
         "attr": {
             "id": "requests-transfer",
             "data-section": "The weight of imagery"

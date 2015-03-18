@@ -1,0 +1,3 @@
+- Get photo procedure sorted
+- Speaker's notes
+- Charts

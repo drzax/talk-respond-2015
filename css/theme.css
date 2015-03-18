@@ -557,3 +557,11 @@ body {
 .reveal .slides #problem-solution h3 span:first-of-type {
   text-align: right;
 }
+/* line 219, source/theme.scss */
+.reveal .slides .scale {
+  font-size: 0.5em;
+}
+/* line 221, source/theme.scss */
+.reveal .slides .scale .domain {
+  stroke-width: 0px;
+}

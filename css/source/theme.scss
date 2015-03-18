@@ -215,4 +215,11 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 			text-align: center;
 		}
 	}
+
+	.scale {
+		font-size: 0.5em;
+		.domain {
+			stroke-width: 0px;
+		}
+	}
 }
