@@ -1,3 +1,4 @@
-- Get photo procedure sorted
-- Speaker's notes
-- Charts
+- ✔ Get photo procedure sorted
+- ✔ Speaker's notes
+- ✔ Charts
+- ✔ References & upload

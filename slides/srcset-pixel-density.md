@@ -8,7 +8,9 @@
 
 
 note:
-- `srcset` is a fine place to start beginning with responsive imagery. I
-  think it gets you the most bang for your buck.
-- In fact, there are good arguments to be made that you should not be using
-  <picture> most of the time.
+
+- humble image tag
+- The simplest way ... pixel density descriptor
+- Allows the browser to do some simple maths...
+- Farewell blurry images
+- Note Original source

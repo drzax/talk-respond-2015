@@ -11,3 +11,6 @@
 ## Choice:
 
 1000px version (maybe).
+
+
+note:

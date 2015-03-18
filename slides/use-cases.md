@@ -9,3 +9,9 @@
 7. Relative units
 8. Image formats
 9. User control over sources
+
+note:
+
+- Before deciding how to solve...
+- Earlier we skipped...
+- ...the RICG first collected...

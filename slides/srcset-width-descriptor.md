@@ -13,7 +13,6 @@
 
 
 note:
-- `srcset` is a fine place to start beginning with responsive imagery. I
-  think it gets you the most bang for your buck.
-- In fact, there are good arguments to be made that you should not be using
-  <picture> most of the time.
+
+- Gives rise to our new friend **sizes**
+- Line by line

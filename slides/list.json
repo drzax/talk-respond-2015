@@ -152,6 +152,13 @@
         }
     },
     {
+        "filename": "wrap.md",
+        "attr": {
+            "data-background": "images/crowd-200.jpg",
+            "class": "title"
+        }
+    },
+    {
         "filename": "wrap-up-art-direction.md",
         "attr": {
             "data-section": "Wrap up"

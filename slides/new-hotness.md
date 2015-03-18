@@ -3,3 +3,7 @@
 
 # One new element
 `<picture>`
+
+note:
+
+- not mutually exclusive
