@@ -1,5 +1,6 @@
 node_modules
-bower_components
+bower_components/*
+!bower_components/reveal.js
 dist
 *.log
 .sass-cache
