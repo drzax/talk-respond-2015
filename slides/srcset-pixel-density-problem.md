@@ -1,5 +1,5 @@
 <video loop>
-    <source src="/video/pixel-density-problem.mov">
+    <source src="video/pixel-density-problem.mov">
 </video>
 
 note:

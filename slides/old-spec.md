@@ -1,4 +1,4 @@
-![The srcset attribute page on w3c.org](/images/old-spec.png)
+![The srcset attribute page on w3c.org](images/old-spec.png)
 
 note:
 
